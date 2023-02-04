@@ -5,3 +5,5 @@ def main():
 
 def second():
     print("Hello World!")
+    
+print("HAHAHAHHAHAHA")
