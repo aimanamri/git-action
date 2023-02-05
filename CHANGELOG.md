@@ -1,3 +1,13 @@
+## 1.0.0 (2023-02-05)
+
+### BREAKING CHANGE
+
+- python libraries for data analysis
+
+### Feat
+
+- allow to install libraris in the requirements.txt
+
 ## 0.1.2 (2023-02-05)
 
 ### Fix
