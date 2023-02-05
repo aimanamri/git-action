@@ -5,3 +5,6 @@ def main():
 
 def second():
     print("Hello World!")
+
+def foo():
+    print("Hello World!")
