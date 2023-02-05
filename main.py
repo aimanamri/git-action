@@ -5,10 +5,6 @@ def main():
 
 def second():
     print("Hello World!")
-
-def foo():
-    print("Hello World!")
     
 def add(a,b):
     return a+b
-    
