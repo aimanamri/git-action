@@ -1,8 +1,8 @@
-# git-action
+# git-action-test-automated_workflow
 
-This is a sample repository showcasing the use of GitHub Actions for Continuous Integration and Continuous Deployment.
+This is a sample repository showcasing the use of GitHub Actions for Continuous Integration and Continuous Deployment. (CI/CD pipeline)
 
-The repository contains a simple Node.js application, with a workflow defined in the .github/workflows directory.
+The repository contains a simple Python files (works with another programming languages as well), with a workflow defined in the .github/workflows directory.
 
 The workflow is triggered on each push to the repository and runs a series of tasks, such as:
 
