@@ -1,3 +1,13 @@
+## 2.0.0 (2023-02-05)
+
+### BREAKING CHANGE
+
+- run unit test for sample.py
+
+### Feat
+
+- allow to check if the code will work or not
+
 ## 1.0.0 (2023-02-05)
 
 ### BREAKING CHANGE
