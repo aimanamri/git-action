@@ -1,3 +1,9 @@
+## 2.0.1 (2024-08-18)
+
+### Fix
+
+- add `subtract()` function
+
 ## 2.0.0 (2023-02-05)
 
 ### BREAKING CHANGE
