@@ -3,6 +3,7 @@ name: WorkFlow Actions
 on: [push, pull_request]
 
 jobs:
+  # Job #1 : run-tests
   run-tests:
     strategy:
       fail-fast: false
@@ -26,3 +27,20 @@ jobs:
 
     - name: Run tests
       run: pytest -v
+      
+  # Job #2 : hello-world
+  hello-world:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+
+    name: Hello World
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Checkout GitHub Repo
+      uses: actions/checkout@v4
+
+    - name: Print Hello World on ${{ matrix.os }}
+      run: echo "Hello World"
+
