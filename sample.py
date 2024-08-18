@@ -3,6 +3,7 @@ import random
 import matplotlib.pyplot as plt
 from vector2d import Vector2D
 import pandas as pd
+import request
 
 class Particle:
     """A circular particle of unit mass with position and velocity."""
